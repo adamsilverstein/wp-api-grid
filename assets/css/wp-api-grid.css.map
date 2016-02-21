@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "wp-api-grid.css",
+	"sources": [
+		"sass/wp-api-grid.scss"
+	],
+	"mappings": "AAAA;;;;;;GAMG;AACH,WAAW,CAAC;EACX,KAAK,EAAE,GAAI,GACX",
+	"names": []
+}

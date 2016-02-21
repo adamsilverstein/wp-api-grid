@@ -1,0 +1,39 @@
+{
+  "name": "wp-api-grid",
+  "title": "WP API Grid",
+  "description": "An API powered image grid.",
+  "version": "0.1.0",
+  "homepage": "http://wordpress.org/plugins",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": {
+    "name": "Adam Silverstein",
+    "email": "adam@10up.com",
+    "url": ""
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.0.0",
+    "glob": "~5.0.15",
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-compress": "^0.13.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-cssmin": "^0.12.3",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-qunit": "^0.7.0",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-phpunit": "^0.3.6",
+    "grunt-postcss": "^0.6.0",
+    "grunt-sass": "^1.0.0",
+    "grunt-wp-readme-to-markdown": "^0.9.0",
+    "load-grunt-config": "~0.17.2",
+    "load-grunt-tasks": "^3.3.0",
+    "qunitjs": "~1.18.0"
+  },
+  "keywords": []
+}
