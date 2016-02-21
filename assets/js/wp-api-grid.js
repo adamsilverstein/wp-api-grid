@@ -10,16 +10,16 @@
 	var $grid = $( '.api-image-gallery-container' ),
 		template = _.template( '<img class="grid-image" src="<%- data.source_url %>">' );
 
+		$grid.masonry( {
+			itemSelector: '.grid-image',
+			percentPosition: true
+		} );
+
 	var loadTen = function( promise ) {
 		return promise.done( function( models ) {
 
 			_.each( models, function( model ) {
 				$grid.append( template( { data: model } ) );
-			} );
-			$grid.masonry( {
-				itemSelector: '.grid-image',
-				percentPosition: true
-
 			} );
 
 			$grid.imagesLoaded().progress( function() {
